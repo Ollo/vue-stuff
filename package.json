@@ -1,0 +1,45 @@
+{
+  "name": "vue-firebase",
+  "version": "1.0.0",
+  "description": "A minimal frontend to explore Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf .cache && rm -rf dist",
+    "dev": "parcel index.html --no-cache",
+    "build": "NODE_ENV=production npm run clean && parcel build index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ollo/gerfs.git"
+  },
+  "keywords": [
+    "vue",
+    "vuex",
+    "parceljs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ollo/gerfs/issues"
+  },
+  "homepage": "https://github.com/Ollo/gerfs#readme",
+  "dependencies": {
+    "firebase": "^4.8.1",
+    "lodash": "^4.17.4",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.8",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.4.1",
+    "parcel-plugin-vue": "^1.5.0"
+  }
+}

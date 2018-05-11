@@ -1,0 +1,26 @@
+// Colors
+
+$navy: #2C3E50;
+$blush: #E74C3C;
+$light-grey: #ECF0F1;
+$med-grey: #BABDBE;
+$charcoal: #6F7171;
+$light-blue: #3498DB;
+$med-blue: #2980B9;
+
+
+// Helpers
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;  
+}
+
+@mixin retro-font() {
+  font-family: 'Press Start 2P', cursive;
+}
+
+@mixin base-font() {
+  font-family: 'Open+Sans', sans-serif;
+}
